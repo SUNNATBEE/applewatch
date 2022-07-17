@@ -1,0 +1,249 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+:root{
+    --font-weight:700;
+    --text-color: #333333;
+    --font-size:15px;
+    ;
+}
+/* roboto-regular - latin */
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: 
+    url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url("../fonts/roboto-v30-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-700 - latin */
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: 
+    url("../fonts/roboto-v30-latin-700.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url("../fonts/roboto-v30-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+.container{
+    width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.header-inner{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.header-right{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    
+}
+.site-nav-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    margin-right: 40px;
+    
+}
+.site-nav-link{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #333333;
+    text-decoration: none;
+    margin: 30px;
+    padding-bottom: 6px;
+}
+.site-nav-link:hover{
+    border-bottom: 3px solid #333333;
+    -webkit-transform: rotate(0.16deg);
+        -ms-transform: rotate(0.16deg);
+            transform: rotate(0.16deg);
+}
+.search-box{
+    width: 153px;
+    border: none;
+    border-bottom:1px solid #333333;
+    -webkit-transform: rotate(0.16deg);
+        -ms-transform: rotate(0.16deg);
+            transform: rotate(0.16deg); 
+    padding-bottom: 6px;
+}
+.section-intro{
+    background-color:  #fff;
+    background-image: url("../images/applewatch.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 587px ) calc(50% + 50px);
+    border-bottom:2px solid #dddd; 
+    
+}
+.about-apple-watch{
+    width: 450px;
+    padding-top: 170px;
+    padding-bottom: 185px;
+}
+.apple-watch-title{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    color: #000000;
+}
+.apple-watch-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #777777;
+    padding-left: 40px;
+    border-left: 3px solid #888888;
+    margin-bottom: 30px;
+}
+.apple-watch-link{
+    display: inline-block;
+    text-align: center;
+    width: 260px;
+    color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #C9514C;
+    text-decoration: none;
+}
+.apple-watch-link:hover{
+    background-color: #EA625C;
+}
+.about{
+    padding-bottom: 140px;
+}
+.about-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0;
+    padding-top: 68px;
+    list-style: none;
+    padding-left: 0;
+}
+.about-item{
+    width: 280px;
+    
+}
+.about-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #222222;
+}
+.about-text{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #333333;
+}
+.about-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.about-boxes{
+    width: 8px;
+    height: 8px;
+    background-color: #dddd;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.about-links{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #EA625C;
+    text-decoration: none;
+}
+.about-links::before{
+    content: "";
+    width: 40px;
+    height: 2px;
+    display: inline-block;
+    background-color: #EA625C;
+    margin-right: 10px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.about-links:hover::before{
+    width: 60px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; 
+}
+.nike-info{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.section-health{
+    background-image: url("../images/runners.jpg");
+    background-repeat:no-repeat ;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.health-info{
+    color: #fff;
+    
+}
+.health-runners{
+    margin-left: auto;
+}
+.health-text{
+    color: #fff;
+   border-left: 3px solid #ffff;
+}
+ 
